@@ -1,4 +1,4 @@
-package io.github.eduardopec.libraryapi.controller.commom;
+package io.github.eduardopec.libraryapi.controller.common;
 
 import io.github.eduardopec.libraryapi.controller.dto.ErroCampo;
 import io.github.eduardopec.libraryapi.controller.dto.ErroResposta;
