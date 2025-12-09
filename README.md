@@ -150,6 +150,17 @@ A API conta com um `GlobalExceptionHandler` que mapeia e padroniza respostas de 
 
 ---
 
+## 📄 Documentação da API (Swagger UI)
+
+A aplicação possui interface visual para exploração dos endpoints, permitindo testar operações autenticadas, visualizar modelos e entender o fluxo REST de forma prática.
+
+Acesse a documentação em:
+
+🔗 **[http://localhost:8080/swagger-ui/index.html#/](http://localhost:8080/swagger-ui/index.html#/)**
+
+---
+
+
 ##  Objetivo
 
 Este projeto foi desenvolvido com foco no aprendizado prático e na implementação de boas práticas, permitindo evoluir tecnicamente em:
