@@ -6,6 +6,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.oauth2.core.oidc.StandardClaimAccessor;
 
 import javax.security.auth.Subject;
 import java.util.Collection;
@@ -60,4 +61,6 @@ public class CustomAuthentication implements Authentication {
     public boolean implies(Subject subject) {
         return Authentication.super.implies(subject);
     }
+
+
 }
